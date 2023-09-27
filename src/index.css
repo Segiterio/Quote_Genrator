@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+*,*::before,*::after {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Raleway', sans-serif;
+}
+
+.container {
+     width: 95%;
+     min-height: 100dvh;
+     max-width: 1440px;
+     padding: 1rem 0;
+     margin:0 auto;
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+}
+
+main {
+     flex-grow:1;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.quoteWrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 640px;
+}
+
+.array_of_quotes {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
